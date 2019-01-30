@@ -8,8 +8,8 @@ import webbrowser
 class Movie() :
 
 	 
-	#"""This class provides a way to Store movie relate information"""
-
+	"""This class provides a documentation to be used for movie related information, by a __doc__ variable"""
+	
 
 	# creating the constructor -> create a instance of the object
 	def __init__ (self, movie_title, movie_story_line, poster_image_url,trailer_youtube_url) :
