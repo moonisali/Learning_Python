@@ -42,3 +42,4 @@ goal = media.Movie("Goal Series", "A tale of a boy who becomes a star by startin
                    "https://www.youtube.com/watch?v=qGhCJXrqZwE")
 movies = [toy_story, avatar, invictus, lotr, cast_away, goal]
 toms.open_movies_page(movies)
+#remove the comment upto the print statement, if you want to see the documentation of the class Movie: print(media.Movie.__doc__)
