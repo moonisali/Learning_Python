@@ -1,11 +1,11 @@
 import random
 import sys
-print("hangM ver 1.2")
+
 
 # lets set some variables
 wordList = [
-"club", "football", "window", "computer", "snow", "juice", "chair", "desktop",
- "laptop", "stadium", "cat", "lemon", "cabel", "mirror", "hat"
+"lion", "umbrella", "window", "computer", "glass", "juice", "chair", "desktop",
+ "laptop", "dog", "cat", "lemon", "cabel", "mirror", "hat"
            ]
 
 guess_word = []
@@ -16,18 +16,18 @@ letter_storage = []
 
 
 
-def beginning():
-    print("Hello Player!\n")
+""" def beginning():
+    print("Hello Mate!\n")
 
     while True:
-        name = input("Please enter Your name\n").strip()
+        name = input("Please enter Your name\n")
 
         if name == '':
             print("You can't do that! No blank lines")
         else:
             break
 
-beginning()
+beginning() """
 
 
 
@@ -35,7 +35,7 @@ def newFunc():
     print("Well, that's perfect moment to play some Hangman!\n")
 
     while True:
-        gameChoice = input("Would You?\n").upper()
+        gameChoice = raw_input("Would You?\n")
 
         if gameChoice == "YES" or gameChoice == "Y":
             break
