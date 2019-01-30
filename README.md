@@ -5,4 +5,4 @@ Hope y'all like the movies in this collection. :D
 
 A program that reminds you, it is BREAK-TIME!
 
-A simple Hangman -game (endeavour O:) )
+An attempt at the simplest Hangman -game
