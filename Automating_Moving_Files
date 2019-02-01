@@ -1,0 +1,20 @@
+import os
+import shutil
+print("""\n\n INFORMATION: PLEASE USE DOUBLE-QUOTES " " TO WRITE ANY INPUTS TO THIS PROGRAM, \n\tEXAMPLE - "C:\Desktop\MyFiles" """) 
+Folder_Target = input(""" \n Write the Path of the source, which Contains The File you want To Move? : """)
+File_Extension = input(""" \n Write The Extension of the file(s) you want to move? [\n For Example >> pdf , txt , exe , ...etc]: """)
+Folder_Path = input("""\n Write the Destination Path, Where you want to move this file(s)? : """)
+Transformes_Loges = input("\nWrite the Path, where you want to save the Logs Of the Operation in : ")
+x=0
+file_logs=open(Transformes_Loges+"\\Logs.txt",mode="a+")
+
+for folder, sub_folder, file in os.walk(Folder_Target):
+    for sub_folder in file:
+        if os.path.join(folder, sub_folder)[-3:]==File_Extension:
+           path= os.path.join(folder, sub_folder)
+           file_logs.write(path+" =====================  Was Moved to ========================>> "+Folder_Path )
+           file_logs.write("\n")
+           shutil.move(path, Folder_Path)
+           x+=1
+file_logs.close()
+print("["+str(x)+"]"+"File Transformed")
