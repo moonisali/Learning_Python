@@ -1,10 +1,10 @@
 # _Python Diary
 Repository to share some fun python code and projects, (including):
-*A movie website created by applying the Object oriented programming concepts learnt during the Udacity Python Programming Course.
+1. A movie website created by applying the Object oriented programming concepts learnt during the Udacity Python Programming Course.
 Hope y'all like the movies in this collection. :D
 
-*A program that reminds you, it is BREAK-TIME! with the best of Mozart.
+2. A program that reminds you, it is BREAK-TIME! with the best of Mozart.
 
-*An attempt at a Hangman -game (coded procedurally) 
+3. An attempt at a Hangman -game (coded procedurally) 
 
-*Automating script: the Most Boring job of moving files (by their extension)!
+4. Automating script: the Most Boring job of moving files (by their extension)!
